@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 VSR = ROOT / "extract" / "MISSION.VSR"
 ZH = ROOT / "text" / "zh_cn.tsv"
+UI = ROOT / "text" / "zh_ui.tsv"
 OUT = ROOT / "build" / "MISSION.VSR"
 
 # English text bins, then the English Huffman table. Language order in each
@@ -266,6 +267,22 @@ def load_zh() -> dict[int, bytes]:
     return out
 
 
+def load_ui() -> dict[int, dict[int, bytes]]:
+    out = {0: {}, 6: {}}
+    for row in csv.DictReader(UI.open(encoding="utf-8"), delimiter="\t"):
+        index = int(row["bin"])
+        if index not in out:
+            raise SystemExit(f"ui bin {index} is not bin 0 or 6")
+        sid = int(row["id"])
+        if sid in out[index]:
+            raise SystemExit(f"duplicate ui string bin {index} id {sid}")
+        text = (row["zh"] or "").replace("\r", "").replace("\n", "")
+        if not text and (row["en"] or ""):
+            raise SystemExit(f"ui bin {index} id {sid} has an empty translation")
+        out[index][sid] = text.encode("utf-8")
+    return out
+
+
 def main() -> None:
     original = VSR.read_bytes()
     _atad, chunks = walk_chunks(original)
@@ -290,11 +307,16 @@ def main() -> None:
     print("english round-trip ok")
 
     zh = load_zh()
+    ui = load_ui()
     mission_ids = {sid for i in MISSION for sid, _ in decoded[i]}
     missing = sorted(mission_ids - zh.keys())
     extra = sorted(set(zh) - mission_ids)
     if missing or extra:
         raise SystemExit(f"translation ids missing {missing[:8]} extra {extra[:8]}")
+    for index in (0, 6):
+        got = {sid for sid, _ in decoded[index]}
+        if got != set(ui[index]):
+            raise SystemExit(f"ui bin {index} ids do not match the game")
 
     texts: dict[int, dict[int, bytes]] = {}
     used: dict[int, int] = {}
@@ -304,7 +326,7 @@ def main() -> None:
             if index in MISSION:
                 texts[index][sid] = zh[sid]
             else:
-                texts[index][sid] = text
+                texts[index][sid] = ui[index][sid]
             for b in texts[index][sid] + b"\x00":
                 used[b] = used.get(b, 0) + 1
     tree = build_tree(used)

@@ -23,7 +23,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "text" / "zh_cn.tsv"
+SOURCES = (ROOT / "text" / "zh_cn.tsv", ROOT / "text" / "zh_ui.tsv")
 OUT = ROOT / "font"
 FONT_PATH = OUT / "NotoSansCJKsc-Regular-subset.otf"
 CELL = 16
@@ -33,8 +33,9 @@ GLYPHS_PER_PAGE = PAGE * PAGE
 
 def charset() -> list[str]:
     counts: Counter[str] = Counter()
-    for row in csv.DictReader(SRC.open(encoding="utf-8"), delimiter="\t"):
-        counts.update(ch for ch in row["zh"] if not ch.isspace())
+    for path in SOURCES:
+        for row in csv.DictReader(path.open(encoding="utf-8"), delimiter="\t"):
+            counts.update(ch for ch in row["zh"] if not ch.isspace())
     return [ch for ch, _ in counts.most_common()]
 
 

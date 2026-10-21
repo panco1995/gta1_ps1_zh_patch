@@ -1,6 +1,6 @@
 # 侠盗猎车手1 美版 PS1 简体中文补丁
 
-这是美版 PlayStation 光盘的私人汉化工作副本。任务对白和传呼机走英语槽，显示为简体中文。菜单、制作人员名单和 CD 音轨仍是英文。法语、德语、意大利语、西班牙语、日语槽没有改。
+这是美版 PlayStation 光盘的私人汉化工作副本。任务对白、传呼机和界面文字走英语槽，显示为简体中文。制作人员名单、菜单贴图和 CD 音轨仍是英文。法语、德语、意大利语、西班牙语、日语槽没有改。
 
 ## 怎么安装
 
@@ -51,9 +51,9 @@ python3 tools/repack_track.py
 ## 这次做了什么
 
 1. 解开 `MISSION.VSR` 里的英语赫夫曼文本。游戏按位读，一条字符串从自己的正文开始，读进下一条记录开头的 8 字节，直到解出 NUL。所以只切到下一条偏移时，句子会在词中间断开；游戏里看到的是读完那 8 字节之后的整句。
-2. 1310 条任务字符串译成简体中文，写在 `text/zh_cn.tsv`。英语槽重编码后仍能解出界面字符串，所以菜单英文还在，只是换了一棵同时容纳中文 UTF-8 字节的赫夫曼树。
+2. 1310 条任务字符串译成简体中文，写在 `text/zh_cn.tsv`。界面 528 条写在 `text/zh_ui.tsv`。英语槽整段换了一棵同时容纳中文 UTF-8 字节的赫夫曼树，任务和界面一起重编码。
 3. 用仓库里的思源黑体简体子集画出 16×16 点阵，挂到美版可执行文件里原本关闭的宽字通道上。美版没有汉字图，原来的宽字来自 BIOS 的 Shift-JIS 字库，简体字出不来。
-4. 重排数据轨。`SLUS_001.06` 和 `MISSION.VSR` 都变大了，原位置后面紧挨着下一个文件，不能原地加长。数据轨从 26404 个扇区变成 26438 个，改过的扇区重算了 Mode 2 Form 1 的 EDC/ECC。音轨仍按音轨号播放。
+4. 重排数据轨。`SLUS_001.06` 和 `MISSION.VSR` 都变大了，原位置后面紧挨着下一个文件，不能原地加长。数据轨从 26404 个扇区变成 26437 个，改过的扇区重算了 Mode 2 Form 1 的 EDC/ECC。音轨仍按音轨号播放。
 
 宽字只在字符串里出现 U+0101 及以上的字符时启用。纯英文界面继续用 8×8 字体。一条中文句子里的数字和标点也走 16 像素宽。
 
@@ -65,7 +65,8 @@ python3 tools/repack_track.py
 | --- | --- |
 | `README.md` | 本说明 |
 | `.gitignore` | 排除美版镜像，保留 `Grand Theft Auto (USA)/put rom here`。`extract/` 和 `build/` 要入库 |
-| `text/zh_cn.tsv` | 译文唯一来源。列是 `id`、`zh`、`en`，1310 行 |
+| `text/zh_cn.tsv` | 任务译文。列是 `id`、`zh`、`en`，1310 行 |
+| `text/zh_ui.tsv` | 界面译文。列是 `bin`、`id`、`zh`、`en`。bin 0 是局内 395 条，bin 6 是前端 133 条。两档编号都从 0 起 |
 | `text/ps1_decoded.tsv` | 英语槽解出来的句子，含和 PC 文本的差异标记 |
 | `text/zh_todo.tsv` | 早期对照表，`zh` 列是空的，不要往这里写译文 |
 | `text/zh_hand.tsv` `text/zh_sa.tsv` `text/zh_burro.tsv` `text/zh_vc1.tsv` `text/zh_vc2.tsv` | 合并前的分批底稿。和 `zh_cn.tsv` 冲突时以 `zh_cn.tsv` 为准 |
@@ -76,7 +77,7 @@ python3 tools/repack_track.py
 | `tools/repack_mission.py` | 把中文写回英语槽，输出 `build/MISSION.VSR` |
 | `tools/patch_exe.py` | 打开宽字并接上点阵，输出 `build/SLUS_001.06` |
 | `tools/repack_track.py` | 把上面两个文件放进数据轨，并写 cue |
-| `font/NotoSansCJKsc-Regular-subset.otf` | 思源黑体简体（Noto Sans CJK SC）的子集，SIL OFL 1.1。只收译文和 ASCII 用到的 1636 个字符 |
+| `font/NotoSansCJKsc-Regular-subset.otf` | 思源黑体简体（Noto Sans CJK SC）的子集，SIL OFL 1.1。只收译文和 ASCII 用到的 1727 个字符 |
 | `font/OFL.txt` | 这套字体的许可证全文 |
 | `font/glyphs.bin` | 游戏实际使用的点阵。按 Unicode 排序：`u32` 个数，然后每条 `u16` 码位、`u16` 零、32 字节点阵 |
 | `font/charset.tsv` | 码位预览索引 |
@@ -91,7 +92,7 @@ python3 tools/repack_track.py
 
 ## 文本和字体在游戏里的位置
 
-英语文本槽是 `MISSION.VSR` 的 bin 0、6、19、26、33、40、47、54。赫夫曼表是 bin 12。一组六个语言的顺序是英、法、德、意、西、日。任务城市是自由城简单、自由城普通、圣安地列斯普通、圣安地列斯困难、罪恶城 1、罪恶城 2。bin 0 和 bin 6 是界面（395 + 133 条），没有英文底稿，这次保持原文，只为了跟上新的赫夫曼树而重新编码。
+英语文本槽是 `MISSION.VSR` 的 bin 0、6、19、26、33、40、47、54。赫夫曼表是 bin 12。一组六个语言的顺序是英、法、德、意、西、日。任务城市是自由城简单、自由城普通、圣安地列斯普通、圣安地列斯困难、罪恶城 1、罪恶城 2。bin 0 和 bin 6 是界面（395 + 133 条）。编号是槽位，不是 PC 的 FXT 键，译文在 `text/zh_ui.tsv`。
 
 每条字符串前面有 8 字节，解码器不读它。它是上一条句子的尾部。第一条的这 8 字节要原样保留，游戏会把其中第一个字当成文本对象上的字段。
 
@@ -114,7 +115,7 @@ python3 tools/repack_track.py
 
 ### 改一句译文
 
-1. 只编辑 `text/zh_cn.tsv` 里对应 id 的 `zh` 列。不要改分批底稿，也不要重跑 `export_strings.py`，它会把 `zh_todo.tsv` 的译文列清掉。
+1. 任务句子只改 `text/zh_cn.tsv` 里对应 id 的 `zh` 列。界面句子改 `text/zh_ui.tsv`，用 `bin` 和 `id` 一起找。不要改分批底稿，也不要重跑 `export_strings.py`，它会把 `zh_todo.tsv` 的译文列清掉。
 2. 句子里如果出现字库里没有的字，先跑 `build_font.py`，再跑 `patch_exe.py`。
 3. 跑 `repack_mission.py`，再跑 `repack_track.py`。
 4. 进游戏翻到这句的任务或传呼机。同一 id 在几个城市槽里会一起换掉。
@@ -135,9 +136,11 @@ python3 tools/repack_track.py
 
 有把握的译法之后：改 `zh_cn.tsv` 这两行，按「改一句译文」重打包。不要为了填空去采用那两句 PC 文本，除非重新解码证明它们就是这个意思。
 
-### 界面的 528 句还是英文
+### 改界面的一句
 
-bin 0（局内）和 bin 6（前端）的 id 是槽位序号，不是 PC 的 FXT 键，不能按编号猜英文。`repack_mission.py` 里的解码器已经能把它们解成原文。以后要译的话：先把解出的英文存成表，逐条翻译，再并进打包脚本里现在「界面保持原文」的分支。不要凭 id 编句子。
+改 `text/zh_ui.tsv` 里对应 `bin` 和 `id` 的 `zh` 列，再按「改一句译文」重打包。`%s`、`%d`、`%01d` 的个数和顺序要跟英文列一样。`#` 和 `@` 是换行，个数也不能变。bin 6 的 131 和 132 本来就是空的，保持空白。
+
+按钮提示里的 `~ | { } < >` 在原字体里是图标。一句里只要出现汉字，整句就改走 16 像素宽字，这些符号会画成普通字符。
 
 ### 汉字缺一角、整句空白、或者花屏
 

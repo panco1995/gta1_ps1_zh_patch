@@ -1,0 +1,529 @@
+bin	id	zh	en
+0	0	上火车跟上车一样。注意空隙，还有那些电线。	Enter a train like a car. Mind the gap - and those electric lines.
+0	1	定期火车让你在城里来去方便。上火车跟上车一样。	The regular train service means easy trips around the city. Enter a train like a car.
+0	2	把车开到四个码头任意一处的吊车下面，能拿额外分数。	Dump vehicles under the cranes at any one of the four docks for extra points.
+0	3	城里有四个码头。让吊车把车吊走，能拿奖励分。	There are four docks in the city. Let the cranes pick up vehicles for bonus points.
+0	4	条子咬得很紧？去喷漆店换个颜色或车牌。	The cops hot on your tail? Try a Respray Shop for a new color or license plates.
+0	5	喷漆店能让条子从你屁股上下来。花钱换颜色或车牌。	Respray Shops get the cops off your ass. Change your color or plates for a price.
+0	6	开进炸弹店，给车装上定时炸弹。攻击键启动炸弹。记住：站远点！	Drive into a Bomb Shop to fit a timer and bomb to a vehicle. The Attack Key arms the bomb. Remember - stand well back!
+0	7	炸弹店花钱给车装炸弹。开进去，开出来，开走。用攻击键启动炸药。	Bomb Shops fit bombs to vehicles for cash. Drive in, out and off. Use the Attack Key to arm the explosives.
+0	8	把你最爱的车开进炸弹店，花钱装颗炸弹。攻击键启动炸弹。	Fit your favorite vehicle with a bomb in exchange for cash by simply driving into a Bomb Shop. The Attack Key arms the bomb.
+0	9	有些楼里藏着院子。进去看看，有些绝妙的惊喜。	Some buildings conceal courtyard areas. Check them out for a few fab surprises.
+0	10	有空去看看西福特洛高架桥底下那辆车。	When you get time, check out the car under the railway lines in West Fort Law.
+0	11	卡住了？法岛有辆卡车丢在那儿好几天了……	Stuck? A truck in Law Island has been abandoned for the past few days...
+0	12	装了炸弹的车，撞得太狠，或者速度掉到一定以下，就会炸。	Vehicles fitted with bombs will blow if they get too badly damaged or they drop below a certain speed.
+0	13	看你的传呼机。老大用它透露别的活的消息。	Watch your pager. The boss uses it to reveal information about other jobs.
+0	14	老大经常用传呼机交代活，看着点。	The boss often uses the pager to provide information about jobs, so watch it.
+0	15	跟条子硬碰硬不聪明。但记住喷漆店！	It's wise to avoid police confrontation. But remember the Respray Shops!
+0	16	箭头永远指向目标，但别靠它认路。	The arrow always points to your goal, but don't rely on it for navigation.
+0	17	等车库门打开，再往楼里开。	Wait for the garage door to open before attempting to drive into the building.
+0	18	叮铃当啷，屎壳郎。	Dingle dangle dongle dung.
+0	19	东西一到手，条子就会像疹子一样爬满你。警告过你了。	Once the pickup's made, the cops'll be all over ya like a rash. You were warned.
+0	20	要接人，就开对的车靠近他们。	To pick up people, drive up close to them in the appropriate vehicle.
+0	21	你需要一百万分开下一关。	You need one million points to progress.
+0	22	偷那辆摩托时，准备好立刻跑。天使帮会气疯！	When you steal the bike, be prepared for a fast getaway. The Angels'll be pissed!
+0	23	记住喷漆店的位置。甩条子全靠它们。	Note the locations of the Respray Shops. They are essential for confusing cops.
+0	24	蹭它。现在就蹭。来啊，别害羞。哦来啊。蹭它。快点！来啊！蹭！贱人。	Rub it. Rub it now. Come on, don't be shy. Oh come on. Rub it. Faster! Come ON! RUB! Bitch.
+0	25	做点出人意料的，往往比听话报酬更大。	Doing the unexpected often brings greater rewards than following orders.
+0	26	装满炸药的车悠着点开。颠太多次就会炸！	Take it easy with vehicles packed with explosives. Too many bumps and they blow!
+0	27	停在警局正中间，破坏最大。	Park in the center of the precinct to cause most damage.
+0	28	灭掉一帮人最好用自动武器。要快！	The best way to wipe out a gang is to use an automatic weapon. Be quick!
+0	29	要开吊车，先开到它下面，提示时下车。大多数车都能换钱。	To start a crane, drive under it then get out of the vehicle when prompted. Most vehicles can be dumped for cash.
+0	30	亲爱的，我想碰碰运气留下这段话，希望你看见，想起我们的爱。记得事后删掉！我永远爱你。	Darling, I thought I'd take a chance and add this message in the hope you'd see it and think of our love. Remember to delete it afterwards! I love you always.
+0	31	帮里的人大多有枪，附近总有接应。眼睛放亮！	Most gang members are armed and backup's always in the area. Keep your eyes open!
+0	32	「毁灭之门已经打开！」	'The doors to destruction are open!'
+0	33	你的颜色：%s	Your Colour : %s
+0	34	红	Red
+0	35	黄	Yellow
+0	36	绿	Green
+0	37	蓝	Blue
+0	38	游戏暂停	Game Paused
+0	39	生命：	Lives :
+0	40	目标分数：	Target Score :
+0	41	目标任务：	Target Missions :
+0	42	已发现秘密：	Secrets Found :
+0	43	击杀	Kill
+0	44	杀戮狂热！	Frenzy!
+0	45	手枪	Pistol
+0	46	机枪	Machine Gun
+0	47	火箭筒	Rocket Launcher
+0	48	喷火器	Flamethrower
+0	49	汽油弹	Petrol Bomb
+0	50	加速	Speed Up
+0	51	车辆加速	Car Speed Up
+0	52	贿赂警察	Police Bribe
+0	53	护甲	Armor
+0	54	倍率上升！	Multiplier Up!
+0	55	免罪卡	Get Outta Jail Free Card
+0	56	额外生命	Extra Life
+0	57	还剩%d条命！	%d Lives Remaining!
+0	58	还剩一条命！	One Life Remaining!
+0	59	没有命了！	No Lives Left!
+0	60	你击杀了%s	You Fragged %s
+0	61	被%s击杀	Fragged by %s
+0	62	帧率限制开	Frame Rate Limiter ON
+0	63	帧率限制关	Frame Rate Limiter OFF
+0	64	干得漂亮，领头的！油门踩死！	Way t' go, leader! Keep ya foot down!
+0	65	来啊，树懒屎！给它油门！	C'mon, sloth turd! Step on it!
+0	66	你赢了！	YOU WIN!
+0	67	你输了！倒霉蛋！	YOU LOSE! Tough luck sucker!
+0	68	妈的！这辆巴士装了500磅塑胶炸药。	Shit! This bus is rigged with 500 lbs of plastic.
+0	69	你这走运的狗娘养的！	You lucky sonofabitch!
+0	70	也好，省得收拾这天大的烂摊子！	Well, that saved cleaning up the mother of all messes!
+0	71	野兽GTS	Beast GTS
+0	72	甲壳虫	Bug
+0	73	康塔什	Counthash
+0	74	摩托车	Bike
+0	75	巡逻车	Squad Car
+0	76	救护车	Ambulance
+0	77	维修车	Repair Van
+0	78	巨兽	Juggernaut
+0	79	巨兽	Juggernaut
+0	80	大巴	Coach
+0	81	拖车	Breakdown Truck
+0	82	火车	Train
+0	83	电车	Tram
+0	84	船	Boat
+0	85	穿刺	Penetrator
+0	86	意大利	Itali
+0	87	蒙达诺	Mundano
+0	88	四驱	4 X 4
+0	89	种马	Stallion
+0	90	出租车	Taxi
+0	91	刺皇	Impaler
+0	92	颈静脉	Jugular
+0	93	皮卡	Pickup
+0	94	波尔卡涡轮	Porka Turbo
+0	95	科西	Cossie
+0	96	斗牛犬	Bulldog
+0	97	巨兽	Juggernaut
+0	98	挑战者	Challenger
+0	99	豪华轿车	Limousine
+0	100	运兵车	APC
+0	101	坦克	Tank
+0	102	超级摩托	Superbike
+0	103	消防车	Fire Truck
+0	104	巴士	Bus
+0	105	油罐车	Tanker
+0	106	电视车	TV Van
+0	107	厢式货车	Transit Van
+0	108	玩具车	Model Car
+0	109	蒙达诺	Mundano
+0	110	敞篷	Roadster
+0	111	爱之车	Love Wagon
+0	112	野兽GTS	Beast GTS
+0	113	曼巴	Mamba
+0	114	朴茨茅斯	Portsmouth
+0	115	飞毛腿	Speeder
+0	116	波尔卡	Porka
+0	117	喷火	Flamer
+0	118	秃鹫	Vulture
+0	119	皮卡	Pickup
+0	120	意大利GTO	Itali GTO
+0	121	君威	Regal
+0	122	巨甲虫	Monster Bug
+0	123	雷暴	Thunderhead
+0	124	黑豹	Panther
+0	125	穿刺	Penetrator
+0	126	勒博纳姆	LeBonham
+0	127	毒刺	Stinger
+0	128	F-19	F-19
+0	129	布里格姆	Brigham
+0	130	毒刺Z29	Stinger Z29
+0	131	经典	Classic
+0	132	29特别版	29 Special
+0	133	意大利GTB	Itali GTB
+0	134	热棒	Hotrod
+0	135	豪华轿车	Limousine
+0	136	刺皇	Impaler
+0	137	想退出？	Ya want out?
+0	138	按回车确认	Press ENTER to confirm
+0	139	或按ESC取消	or ESC to cancel
+0	140	步行	on foot
+0	141	乘火车	by train
+0	142	开车	by car
+0	143	不然这小鬼就完了	or the kid gets it
+0	144	不然你会后悔	or you'll be sorry
+0	145	把屁股挪到	to shift butt to
+0	146	赶紧滚到	to haul ass to
+0	147	赶到	to get to
+0	148	在	in
+0	149	%d秒	%d seconds
+0	150	%d分钟	%d minutes
+0	151	%d分%d秒	%d minutes %d seconds
+0	152	几秒内	a handful of seconds
+0	153	这车被动了手脚！	The car's been rigged!
+0	154	收你%s块。	That'll be $%s.
+0	155	有钱再来！	Come back when ya got the cash!
+0	156	那玩意儿我可不碰！滚！	I ain't touchin' that! Get outta here!
+0	157	把那该死的玩具给我弄走！	Get that goddamn toy outta here!
+0	158	我看起来像军队吗？去炸你自己吧，小子！	What do I look like? The military? Go blow, punk!
+0	159	好了！跟新的一样！	There ya go! Good as new!
+0	160	干净了。车牌换过了。	It's clean. The plates have been changed.
+0	161	这下你的钱全没了。	That cost you ALL your cash.
+0	162	炸弹已启动！	BOMB ARMED!
+0	163	炸弹已解除！	BOMB DISARMED!
+0	164	起爆倒计时……	Detonation in...
+0	165	装弹中……	Reloading...
+0	166	进入画面	Entry Screen
+0	167	按空格继续	Press SPACE To Continue
+0	168	警察开启	Police Activated
+0	169	警察关闭	Police Deactivated
+0	170	标准画面	Standard Screen Mode
+0	171	四分之三高分辨率	3/4 Hi-res Screen Mode
+0	172	全屏高分辨率	Full Hi-res Screen Mode
+0	173	低缩放	Low Zoom Mode
+0	174	高缩放	High Zoom Mode
+0	175	极高缩放	Very High Zoom Mode
+0	176	北	North
+0	177	南	South
+0	178	东	East
+0	179	西	West
+0	180	中	Central
+0	181	东南	Southeast
+0	182	西南	Southwest
+0	183	东北	Northeast
+0	184	西北	Northwest
+0	185	尼克松岛	Nixon Island
+0	186	自由城	Liberty City
+0	187	哈肯斯莱什	Hackenslash
+0	188	伊格尔伍德	Eaglewood
+0	189	根西城	Guernsey City
+0	190	福特洛	Fort Law
+0	191	施莱希贝格	Schlechberg
+0	192	新根西	New Guernsey
+0	193	无法区	Nolaw
+0	194	布里克斯	Brix
+0	195	岛景	Island View
+0	196	法岛	Law Island
+0	197	埃斯托利亚	Estoria
+0	198	金斯	Kings
+0	199	阿德勒	Ardler
+0	200	布罗克林	Brocklyn
+0	201	特尔堡	Tellberg
+0	202	布罗克林码头	Brocklyn Docks
+0	203	岛城	Island City
+0	204	岛高地	Island Heights
+0	205	公园	Park
+0	206	电话山	Telephone Hill
+0	207	伍德希尔	Wood Hill
+0	208	苏联山	Soviet Hill
+0	209	日出	Sunrise
+0	210	里奇曼	Richman
+0	211	大西洋高地	Atlantic Heights
+0	212	艾谷	Aye Valley
+0	213	唐人街	Chinatown
+0	214	鹰湾	Eagleside
+0	215	伍德赛德	Woodside
+0	216	土豆镇	Potato
+0	217	埃克斯卡利伯	Excalibur
+0	218	格伦伍德	Glen Wood
+0	219	市场	Market
+0	220	游艇码头	Marina
+0	221	水手码头	Sailors Wharf
+0	222	日景	Sunview
+0	223	罪恶海滩	Vice Beach
+0	224	香蕉林	Banana Grove
+0	225	费莉西蒂	Felicity
+0	226	里奇曼高地	Richman Heights
+0	227	小波哥大	Little Bogota
+0	228	希腊高地	Greek Heights
+0	229	小多米尼加	Little Dominica
+0	230	珊瑚城	Coral City
+0	231	米拉米尔	Miramire
+0	232	罪恶海岸	Vice Shores
+0	233	罪恶城	Vice City
+0	234	警告	Warning
+0	235	又来一辆？想象力呢，小子？	Another one? Where's your imagination, kid?
+0	236	这玩意儿都要从我屁股里冒出来了！下次换点别的！	I got these things comin' out my ass! Try somethin' different next time!
+0	237	你真以为我会碰那辆装满炸弹的破车？滚！	You really think I'm gonna touch that bomb-loaded shit? Get outta here!
+0	238	那玩意儿这儿放不下。从我眼前弄走！	That ain't gonna fit on here. Get it outta my sight!
+0	239	我歇了。换一台吊车！	I'm outta service. Try another crane!
+0	240	我可不是慈善机构！把那破车弄走！	I ain't a charity! Get that wreck outta here!
+0	241	把你的屁股挪开，我要吊了！	Get your buns outta there, I'm pickin' it up!
+0	242	我没地方了！拿到别处去！	I ain't got room for no more! Take it someplace else!
+0	243	急什么，小子？给我点时间！	What's your hurry kid? Gimme a chance!
+0	244	火看着挺漂亮，但我可不收着火的！	The flames look real pretty, but I ain't takin' it like that!
+0	245	没门，小子！这对我太烫了！	No way kid! That's too hot for me!
+0	246	这东西不太有人要……不过管他的。	There ain't much demand for these... but what the hell.
+0	247	这个我不收！你想陷害我吗，小子？	I ain't takin' that! You tryin' to set me up kid?
+0	248	车况极好。我出%d块。	Excellent condition. I'll give you $%d for it.
+0	249	车况不错。我出%d块。	Good condition. I'll give you $%d for it.
+0	250	还行。%d块你看怎么样？	Not too bad. How does $%d grab ya?
+0	251	挺破的……我只能给%d块。	Pretty beat up... I can only give ya $%d for it.
+0	252	真是坨屎！给你%d块，就这些！	What a pieceashit! You get $%d an' that's all!
+0	253	被抓了！	Bagged 'n' Tagged!
+0	254	老大对你的进度不满意。你能活着就算走运……直到公司让你后悔没死。	The boss ain't happy with ya progress. Consider y'self lucky to be alive... until the company makes ya wish you were dead.
+0	255	你以为老大会把你捞出来吧……现在公司没人罩你了。	Bet ya thought the boss would get ya off... Well there ain't no-one from the company around to look out for ya now.
+0	256	真是个人物！你妈会骄傲的！	What a guy! Your moma would be proud!
+0	257	怂包，嗯？下次我去商场给你带根脊梁回来！	Chickenshit, huh? Next time I'm at the mall I'll bring ya back a spine!
+0	258	你这蠢屎废物。这么简单的活要拖他妈多久？公司不高兴。	You dumb shit loser. How goddamn long can such a simple mission take? The company ain't happy.
+0	259	时间到！%s以%d块巨款获胜，%s以%d块屈居第二！	TIME UP! %s WINS with a monumental $%d, %s brings up second with %d!
+0	260	%s达到目标！获胜分数是%d！	%s HITS THE TARGET! The winning score is %d!
+0	261	%s赢得比赛！	%s WINS THE RACE!
+0	262	时间到了，倒霉蛋！还想玩？去买正版。	Time's up, sucker! Ya want more? Buy the real thing.
+0	263	节点	Nodes
+0	264	城市	City
+0	265	任务	Mission
+0	266	控制	Control
+0	267	键盘	Keyboard
+0	268	摇杆	Joystick
+0	269	音效	Sound
+0	270	音乐	Music
+0	271	评价	Rating
+0	272	分数	Score
+0	273	取消	Cancel
+0	274	重置	Reset
+0	275	改名	Rename
+0	276	菜单	Menu
+0	277	开始	Play
+0	278	选项	Options
+0	279	载入中……	Loading...
+0	280	载入演示……	Loading Demo...
+0	281	载入动作回放……	Loading Action Replay...
+0	282	犯罪记录	Criminal Record
+0	283	冲撞	Shunts 'n' Bumps
+0	284	肇事逃逸	Hit 'n' Run
+0	285	劫持	Hijacking
+0	286	抢车	Carjacking
+0	287	侠盗	GTA
+0	288	枪械犯罪	Firearms Offenses
+0	289	一级谋杀	Murder One
+0	290	银行劫案	Bank Jobs
+0	291	文本	Text
+0	292	关	Off
+0	293	开	On
+0	294	慢	Slow
+0	295	普通	Normal
+0	296	快	Fast
+0	297	状态	Status
+0	298	失败	Failed
+0	299	版本检查	Version Checking
+0	300	初始化	Initialising
+0	301	空格	Space
+0	302	过场	Cut-Scene
+0	303	Esc	Esc
+0	304	回车	Enter
+0	305	删除	Del
+0	306	R	R
+0	307	退出	Quit
+0	308	出发了……	And Away We Go...
+0	309	黑帮爆炸	Gangsta Bang
+0	310	至高劫案	Heist Almighty
+0	311	唐人浩劫	Mandarin Mayhem
+0	312	龙舌兰重击	Tequila Slammer
+0	313	脏警蓝调	Bent Cop Blues
+0	314	雷鬼轰鸣	Rasta Blasta
+0	315	死斗	Deathmatch
+0	316	炮弹飞车一	Cannonball I
+0	317	炮弹飞车二	Cannonball II
+0	318	炮弹飞车三	Cannonball III
+0	319	死斗	Deathmatch
+0	320	炮弹飞车一	Cannonball I
+0	321	炮弹飞车二	Cannonball II
+0	322	炮弹飞车三	Cannonball III
+0	323	死斗	Deathmatch
+0	324	炮弹飞车一	Cannonball I
+0	325	炮弹飞车二	Cannonball II
+0	326	炮弹飞车三	Cannonball III
+0	327	自由城	Liberty City
+0	328	圣安地列斯	San Andreas
+0	329	罪恶城	Vice City
+0	330	%s 第%d章：	%s Chapter %d :
+0	331	%d：%s	%d: %s
+0	332	%s：%d	%s: %d
+0	333	%s：%s	%s: %s
+0	334	透明效果	Transparency Effects
+0	335	音乐模式	Music Mode
+0	336	连续	Constant
+0	337	电台	Radio
+0	338	公敌	Public Enemies
+0	339	分数	Scores
+0	340	犯罪记录	Criminal Record
+0	341	%s最高	%s Highest
+0	342	警察	Police
+0	343	结束游戏	End Game
+0	344	结束分数	End Score
+0	345	结束击杀	End Kills
+0	346	击杀	Kills
+0	347	保存	Save
+0	348	获胜：赚到%d块	To Win : Earn $%d
+0	349	获胜：%d次击杀！	To Win : %d Frags!
+0	350	获胜：跑第一！	To Win : Come First!
+0	351	未能完成	Failed To Finish
+0	352	完成	Finish
+0	353	已通过任务：	Missions Passed :
+0	354	比赛结果	Race Results
+0	355	赢家！	The Winner!
+0	356	输不起！	Sore Loser!
+0	357	算平局！	Call It A Draw!
+0	358	游戏中止！	Game Abandoned!
+0	359	最终分数	Final Scores
+0	360	光盘不可用或正被占用。游戏将不播放CD音轨。	CD unavailable or in use. GTA will run without CD audio.
+0	361	光头索内蒂让我警告你。	I got a warning for you from Bald Man Sonetti.
+0	362	再惹他，我就把枪塞进你屁股……	Cross him again, I stick a gun up your ass...
+0	363	……把你眼珠崩出来。	...and blow your eyeballs out.
+0	364	干得不错，小子，可事情已经炸了。	Nice work kid but the shit's hit the fan.
+0	365	条子打着手电往我屁股里爬，就为了找你。	The cops are crawling up my ass with flashlights looking for you.
+0	366	我给你订了去圣安地列斯的机票。	I booked you a flight to San Andreas.
+0	367	我们正在建立一桩规模惊人的犯罪集团。	We are building a crime syndicate of extraordinary magnitude.
+0	368	我们按祖宗的规矩收保护费。	We extort money in the tradition of our ancestors.
+0	369	你为家族带来荣耀。	You honor our family.
+0	370	我们感激你。	You have our gratitude.
+0	371	你替我办得真漂亮。	You done real good for me.
+0	372	现在你该知道他们为什么叫我驴子了！	Now it's time for you to find out why they call me the donkey!
+0	373	这次我要亲自奖赏你！	I'm going to reward you personally this time!
+0	374	听好了，你这廉价的吮妈货！	You listen to me you two-bit mother sucker!
+0	375	我听说你在背着我干活。	I hear you're working behind my back.
+0	376	要是真的，我就把你当疯婊子那样干！	If that's true, I'm gonna you like a crazy bitch!
+0	377	从我眼前消失。	Get outta my sight.
+0	378	我看你是把活干完了。	I got the idea that you got the job done.
+0	379	做得好。	Well done.
+0	380	公文包里是一大笔钱！	Serious cash in the briefcase!
+0	381	我觉得很长一段时间见不着你了！	I don't think I'll be seeing you for a long time!
+0	382	仅使用DirectDraw模式	Only Use DirectDraw Modes
+0	383	光盘警告！	CD Warning!
+0	384	没有《侠盗猎车手》光盘。@@只能加入网络游戏。@@带上光盘重新启动，才能正常玩。	The Grand Theft Auto CD is not present.@@Only joining network games is possible.@@Start Grand Theft Auto again with the CD present for normal play.
+0	385	仅网络版	Network Only Version
+0	386	辣妞试玩版	Hot Bitch Teaser Version
+0	387	好，再来一下就行！	OK, one more should do it!
+0	388	真是妙极了！	That's just dandy!
+0	389	古兰加！	GOURANGA!
+0	390	被抓了！	BUSTED!
+0	391	报销了！	WASTED!
+0	392	任务失败！	MISSION FAILED!
+0	393	任务完成！	MISSION COMPLETE!
+0	394	狂热失败！	FRENZY FAILED!
+6	0	新游戏	New Game
+6	1	选项	Options
+6	2	操作	Controls
+6	3	读取游戏	Load Game
+6	4	~ : 选择	~ : Select
+6	5	~ : 选择   取消 : |	~ : Select   Cancel : |
+6	6	| : 取消	| : Cancel
+6	7	} : 改名   重置名字 : {	} : Rename   Reset Name: {
+6	8	分数	Scores
+6	9	黑帮爆炸	Gangsta Bang
+6	10	至高劫案	Heist Almighty
+6	11	唐人浩劫	Mandarin Mayhem
+6	12	龙舌兰重击	Tequila Slammer
+6	13	脏警蓝调	Bent Cop Blues
+6	14	雷鬼轰鸣	Rasta Blasta
+6	15	} : 删除   结束 : {	} : Del   End : {
+6	16	请输入你的名字	Please enter your name
+6	17	公敌	Public Enemies
+6	18	自由城	Liberty City
+6	19	罪恶城	Vice City
+6	20	圣安地列斯	San Andreas
+6	21	{ : 保存当前	{ : Save Current
+6	22	} : 剪切片段	} : Cut Sequence
+6	23	~ : 选择	~ : Select
+6	24	| : 取消	| : Cancel
+6	25	音效：	Effects :
+6	26	音乐：	Music :
+6	27	文本：普通	Text : Normal
+6	28	文本：快	Text : Fast
+6	29	文本：慢	Text : Slow
+6	30	切换语言	Change Language
+6	31	音乐模式：电台	Music Mode : Radio
+6	32	音乐模式：连续	Music Mode : Constant
+6	33	完成	Done
+6	34	左右转向	Rotate Left/Right
+6	35	刹车	Brakes
+6	36	上下车	Enter/Exit Vehicle
+6	37	攻击/开火	Attack/Fire
+6	38	加速	Accelerate
+6	39	下一武器	Next Weapon
+6	40	上一武器	Prev Weapon
+6	41	特殊	Special
+6	42	暂停	Pause
+6	43	左转	Turn Left
+6	44	右转	Turn Right
+6	45	前进	Forwards
+6	46	后退	Backwards
+6	47	刹车	Brake
+6	48	操作选择	Control Selection
+6	49	布局：一	Layout : One
+6	50	布局：二	Layout : Two
+6	51	布局：三	Layout : Three
+6	52	布局：四	Layout : Four
+6	53	布局：五	Layout : Five
+6	54	~ : 选择	~ : Select
+6	55	| : 返回	| : Back
+6	56	~ : 开始	~ : Play
+6	57	开始 : 菜单	Start : Menu
+6	58	犯罪记录	Criminal Record
+6	59	分数：	Score : 
+6	60	特技冲撞	Stunts 'n Bumps
+6	61	肇事逃逸	Hit 'n Runs
+6	62	劫持	Hijacking
+6	63	抢车	Carjacking
+6	64	枪械犯罪	Fire Arms Offenses
+6	65	一级谋杀	Murder One
+6	66	银行劫案	Bank Jobs
+6	67	已通过任务：	Missions Passed : 
+6	68	已发现秘密：	Secrets Found : 
+6	69	被抓了！	Bagged 'n' tagged!
+6	70	你的老大对进度不满意。你还能活着就算走运。不过公司可能会让你后悔没死。	Your boss is not happy with your progress. You're lucky to still be alive. However, the company may make you wish you had died.
+6	71	你以为老大会把你捞出来。公司没人替你说话。	You thought that your boss would have tried to get you off. No-one from the company is around to defend you.
+6	72	真是个人物！你妈会骄傲的！	What a guy! Your momma would be proud!
+6	73	怂包，嗯？下次我去商场给你带根脊梁回来！	Chicken-shit, huh? Next time I'm at the mall I'll bring ya back a spine!
+6	74	这么简单的活要拖他妈多久？你输得难看。公司不高兴。	How god-damn-long can such a simple mission take you? You have failed miserably. The company is not happy.
+6	75	时间到！%s以%d块巨款获胜，%s以%d块屈居第二。	TIME UP! %s WINS with a monumental $%d, %s brings up second with %d.
+6	76	%s达到目标！获胜分数是%d！	%s HITS THE TARGET! The winning score is %d!
+6	77	%s赢得比赛！	%s WINS THE RACE! 
+6	78	< > : 调整	< > : Adjust
+6	79	~ : 选择	~ : Select
+6	80	重复消息	Repeat Message
+6	81	不是GTA	Not GTA
+6	82	空	Empty
+6	83	确定要删除这个文件吗？#删了就找不回来。##{ : 删除        取消 : |	Are you sure you want to delete this file ?#If you choose to do so, the file cannot be recovered.##{ : Delete        Cancel : |
+6	84	存储卡插槽 %01d#里的卡未格式化。#要格式化吗？##{ : 格式化        取消 : |	The Memory Card in Memory card#slot %01d is not formatted.#Format the card ?##{ : Format        Cancel : |
+6	85	~ : 读取	~ : Load
+6	86	~ : 保存	~ : Save
+6	87	} : 取消	} : Cancel
+6	88	| : 删除	| : Delete
+6	89	{ : 更换存储卡	{ : Change Memory Card
+6	90	请稍候……	Please Wait...
+6	91	存储卡插槽1没有存储卡	No Memory Card present in Memory Card Slot 1
+6	92	存储卡插槽2没有存储卡	No Memory Card present in Memory Card Slot 2
+6	93	文件不适用	Not a suitable file
+6	94	出错了。请换一张存储卡，或把卡拔出后正确插回去。##~ : 确定	An Error occurred. Please try another memory card, or remove and re-insert the card correctly.##~ : OK
+6	95	请为存档起个名字	Please enter a name for your save game
+6	96	要覆盖现有存档吗？#覆盖后无法恢复。#此操作需要一个区块。##{ : 覆盖        取消 : |	Overwrite the existing save game file ?#If you choose to do so, the file cannot be recovered.#This operation requires one block.##{ : Overwrite        Cancel : |
+6	97	保存游戏##此操作需要一个区块##确定吗？##{ : 保存        取消 : |	Save game##This operation requires one block##Are you sure ?##{ : Save        Cancel : |
+6	98	读取游戏##确定吗？##{ : 读取        取消 : |	Load game##Are you sure ?##{ : Load        Cancel : |
+6	99	读取游戏##这不是GTA存档#无法读取##| : 取消	Load game##This is not a GTA file#You cannot load it##| : Cancel
+6	100	保存游戏	Save Game
+6	101	< > : 选择玩家	< > : Select Player
+6	102	查看制作人员	View Credits
+6	103	存储卡已满##存储卡插槽 %01d 已满。要存新档，必须覆盖或删除已有存档。##~ : 确定	Memory Card Full##The Memory Card in Memory card slot %01d is full.  If you wish to save a new game, you must save over or delete an existing one.##~ : OK
+6	104	保存游戏##保存成功。##~ : 确定	Save Game##Save operation completed successfully.##~ : OK
+6	105	音效音量	EFFECTS VOL
+6	106	音乐音量	MUSIC VOL
+6	107	文本：普通	TEXT : NORMAL
+6	108	文本：快	TEXT : FAST
+6	109	文本：慢	TEXT : SLOW
+6	110	返回游戏	RETURN TO GAME
+6	111	退出游戏	QUIT GAME
+6	112	音乐模式：电台	MUSIC MODE : RADIO
+6	113	音乐模式：连续	MUSIC MODE : CONSTANT
+6	114	- 已暂停 -	- PAUSED -
+6	115	X : 选择	X : SELECT
+6	116	>	>
+6	117	确定吗？##按O确认，按其他键取消	ARE YOU SURE ?##PRESS O TO CONFIRM AND ANY OTHER BUTTON TO CANCEL
+6	118	< > : 调整	< > : ADJUST
+6	119	手柄已拔出	CONTROLLER REMOVED
+6	120	读取游戏##读取成功。##~ : 确定	Load Game##Load operation completed successfully.##~ : OK
+6	121	目标分数：	Target Score :
+6	122	目标任务：	Target Missions :
+6	123	已发现秘密：	Secrets Found :
+6	124	格式化存储卡##格式化成功。##~ : 确定	Format Memory Card##The format operation completed successfully.##~ : OK
+6	125	存储卡插槽1中的卡未格式化	Unformatted Memory Card in Memory Card Slot 1
+6	126	存储卡插槽2中的卡未格式化	Unformatted Memory Card in Memory Card Slot 2
+6	127	密码：	Password :
+6	128	} : 删除   保存 : {	} : Del   Save : {
+6	129	试玩版——须年满17岁	Demo Version - Must be 17 or Older to play
+6	130	请稍候##正在保存……	Please Wait##Now Saving...
+6	131		
+6	132		

@@ -20,7 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 EXE = ROOT / "extract" / "SLUS_001.06"
 GLYPHS = ROOT / "font" / "glyphs.bin"
-ZH = ROOT / "text" / "zh_cn.tsv"
+ZH_FILES = (ROOT / "text" / "zh_cn.tsv", ROOT / "text" / "zh_ui.tsv")
 OUT = ROOT / "build" / "SLUS_001.06"
 
 BASE = 0x80010000
@@ -175,10 +175,11 @@ def ascii_in_wide_strings() -> set[str]:
     import csv
 
     need = set()
-    for row in csv.DictReader(ZH.open(encoding="utf-8"), delimiter="\t"):
-        text = row["zh"]
-        if any(ord(ch) > 127 for ch in text):
-            need.update(ch for ch in text if ord(ch) < 128)
+    for path in ZH_FILES:
+        for row in csv.DictReader(path.open(encoding="utf-8"), delimiter="\t"):
+            text = row["zh"] or ""
+            if any(ord(ch) > 127 for ch in text):
+                need.update(ch for ch in text if ord(ch) < 128)
     return need
 
 
@@ -236,7 +237,13 @@ def main() -> None:
     glyphs = load_glyphs()
     import csv
 
-    missing = sorted({ch for row in csv.DictReader(ZH.open(encoding="utf-8"), delimiter="\t") for ch in row["zh"] if ord(ch) > 127 and ord(ch) not in glyphs})
+    missing = sorted({
+        ch
+        for path in ZH_FILES
+        for row in csv.DictReader(path.open(encoding="utf-8"), delimiter="\t")
+        for ch in (row["zh"] or "")
+        if ord(ch) > 127 and ord(ch) not in glyphs
+    })
     if missing:
         raise SystemExit("glyphs.bin is missing " + "".join(missing[:20]))
     font = ImageFont.truetype(FONT_PATH, 14)
