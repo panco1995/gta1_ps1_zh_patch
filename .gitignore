@@ -1,0 +1,8 @@
+# 美版原盘留在本机。目录本身靠 put rom here 进仓库，里面的镜像不进。
+# extract/ 和 build/ 进仓库。不会打包的人换掉数据轨就能玩。
+Grand Theft Auto (USA)/*
+!Grand Theft Auto (USA)/put rom here
+
+.DS_Store
+__pycache__/
+*.pyc
